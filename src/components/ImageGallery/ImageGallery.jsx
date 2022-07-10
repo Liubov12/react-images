@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import ImageGalleryItem from '../ImageGalleryItem';
+import ImageGalleryItem from '../ImageGallery/ImageGalleryItem';
 import styles from './ImageGallery.module.css';
 
 function ImageGallery({ images, openModal }) {

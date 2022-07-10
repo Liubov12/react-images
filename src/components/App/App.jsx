@@ -3,7 +3,7 @@ import { ToastContainer } from 'react-toastify';
 import Searchbar from '../Searchbar/Searchbar';
 import Container from 'Container';
 import ImageGallery from '../ImageGallery/ImageGallery';
-import ApiService from 'ApiService/ApiService';
+import getImages from 'apiService/apiService';
 import Button from '../Button/Button';
 import Loader from '../Loader/Loader';
 import Modal from '../Modal/Modal';
@@ -21,7 +21,7 @@ function App() {
     if (!query) return;
     const fetchImages = async () => {
       try {
-        const request = await ApiService(query, page);
+        const request = await getImages(query, page);
         if (request.length === 0) {
           return setError(`No results were found for ${query}!`);
         }
