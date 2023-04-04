@@ -3,7 +3,7 @@ import { ToastContainer } from 'react-toastify';
 import Searchbar from '../Searchbar/Searchbar';
 import Container from 'Container';
 import ImageGallery from '../ImageGallery/ImageGallery';
-import getImages from 'apiService/apiService';
+import getImages from './../../ApiService/apiService';
 import Button from '../Button/Button';
 import Loader from '../Loader/Loader';
 import Modal from '../Modal/Modal';
