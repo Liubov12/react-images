@@ -2,7 +2,7 @@
   "name": "goit-react-images",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://liubov12.github.io/goit-react-images/",
+  "homepage": "https://liubov12.github.io/react-images/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
